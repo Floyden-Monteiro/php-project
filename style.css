@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #97caef;
+  font-family: "DM Sans", sans-serif;
+}
+
+.button {
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  border-radius: 60px;
+  background-color: #2f2fa2;
+  color: white;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+.container {
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  transition: transform 450ms;
+}
+
+.container:hover {
+  transform: scale(1.01);
+}
+
+label {
+  padding-right: 40px;
+}
+
+select {
+  padding: 8px;
+  padding-left: 16px;
+  padding-right:16px ;
+  border: none;
+  border-radius: 10px;
+}
+
+h1{
+  align-items: center;
+  text-align: center;
+}
